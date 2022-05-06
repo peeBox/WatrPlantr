@@ -71,7 +71,7 @@ void loop()
                    "Content-Type: application/x-www-form-urlencoded\r\n" +
                    "Content-Length: 15\r\n\r\n" +
                    "value1=" + buttonState + "\r\n");
-      delay(1000)
+      delay(1000);
     }
     x = true;
   } else {
