@@ -50,7 +50,7 @@ void loop()
 
   if (Humi < 50)
   {
-    Serial.print("Pompe en marche");
+    Serial.print("Pumping");
     digitalWrite(pump, HIGH);
     delay(400);
     digitalWrite(pump, LOW);
